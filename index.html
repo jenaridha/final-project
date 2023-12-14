@@ -1,37 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <link rel="icon" type="image/zaky-icon" href="images/logo-optimized.png">
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="css/custom.css">
-   <title>Zaky Grill and Broast</title>
+    <link rel="icon" type="image/zaky-icon" href="images/logo-optimized.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Zaky Grill and Broast</title>
+    <style>
+        .orange-text {
+            color: orange;
+        }
+
+        .food-text {
+            text-align: justify;
+        }
+    </style>
 </head>
-<main>
-<header>
+
 <body>
-   <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img src="images/logo.png" alt="" width="200"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="about us.html">About Us</a>
-            <a class="nav-link" href="contact.html">Contact & Location</a>
-          </div>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" alt="" width="200">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="about us.html">About Us</a>
+                        <a class="nav-link" href="contact.html">Contact & Location</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <img src="images/banner.png" class="img-fluid mx-auto d-block mt-4" alt="..." style="max-width: 100%;">
+        
+        <div class="container mt-4">
+            <h1 class="text-center display-4 font-weight-bold orange-text">Where Quality Meets Flavour!</h1>
+            <p class="text-center text-muted">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
         </div>
-      </div>
-    </nav>
-    <img src="images/banner.png" class="img-fluid" alt="...">
-   </header>
 
+        <div class="container mt-4">
+            <div class="row">
+                <!-- Left Column -->
+                <div class="col-md-4">
+                    <img src="images/food3.png" class="img-fluid mb-3" alt="Food 3">
+                    <p class="food-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut</p>
+                </div>
 
-   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>  
+                <!-- Center Column -->
+                <div class="col-md-4">
+                    <img src="images/food2.png" class="img-fluid mb-3" alt="Food 2">
+                    <p class="food-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut</p>
+                </div>
+
+                <!-- Right Column -->
+                <div class="col-md-4">
+                    <img src="images/food1.png" class="img-fluid mb-3" alt="Food 1">
+                    <p class="food-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
-
